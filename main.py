@@ -75,7 +75,7 @@ def processar_apostas():
         )
 
         if ganhou == True:
-
+# Após isso, ele formata o cpf do ganhador com a pontuação.
             cpf_formatado = formatar_cpf(cpf)
 
             arquivo_saida.write(
